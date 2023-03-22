@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("paso 1"){
             steps{
-                scripts{
+                script{
                     sh "echo 'Hola Mundo' "
                 }
             }
