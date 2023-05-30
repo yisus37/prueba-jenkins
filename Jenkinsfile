@@ -3,7 +3,7 @@ pipeline{
         label "master"
     }
     environment{
-        appName="variable"
+        appName="variables"
     }
     stages{
         stage("paso 1"){
