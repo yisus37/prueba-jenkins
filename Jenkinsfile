@@ -2,7 +2,7 @@ pipeline{
     agent any
     
     environment{
-        appName="variable"
+        appName="variablee"
     }
     stages{
         stage("paso 1"){
