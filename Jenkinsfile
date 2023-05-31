@@ -1,14 +1,13 @@
 pipeline{
-    agent{
-        label "master"
-    }
+    agent any
+    
     environment{
         appName="variablee"
     }
     stages{
         stage("paso 1"){
             steps{
-                scripts{
+                script{
                     sh "echo 'Hola Mundo' "
                 }
             }
